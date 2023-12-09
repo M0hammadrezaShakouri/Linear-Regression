@@ -1,20 +1,38 @@
-# Linear-Regression
-Linear Regression using stochastic gradient descent and batch gradient descent
+# Linear Regression using Stochastic Gradient Descent and Batch Gradient Descent
 
-In this project, I used 2 identical datasets, one normal and one with some outliers which include information about height, weight and sex of some random people.
+## Objective
+Implementing Stochastic Gradient Descent (SGD) and Batch Gradient Descent algorithms for linear regression on datasets containing information about height, weight, and sex of random individuals. Two datasets were used - one with normal data and the other with outliers.
 
-My objective in this project is to implement stochastic gradient descent (2000 epochs) 
-and batch gradient descent (2000 epochs) algorithms for linear regression on heights (X) and  weights (Y).
+## Tasks
 
-I performed the following tasks :
+1. **Data Normalization:**
+   - Normalize the datasets to ensure that the values of each feature range between 0 (minimum value) and 1 (maximum value).
 
-1. Normalize the datasets so that the values of each feature change between 0 (for min. value of the feature) and 1
-(for max. value of the feature).
+2. **Model Training:**
+   - Implement SGD and Batch Gradient Descent algorithms with 2000 epochs for each.
+   - Train the models separately on the normalized datasets.
 
-2. Train each model separately on the normalized datasets and plot the datasets alongside with the obtained
-regression model. For these plots, the X axis should be the height feature and the Y axis should be the weight
-feature. In addition, you should discriminate males and females by using different colors. (4 figures)
+3. **Visualization:**
+   - Plot the original datasets alongside the obtained regression models.
+   - Use the height feature for the X-axis and the weight feature for the Y-axis.
+   - Differentiate between males and females by employing distinct colors in the plots.
 
+## Dataset Description
+- Two datasets used: one normal and one with outliers.
+- Features: Height (X) and Weight (Y).
+- Outliers included to challenge the robustness of the implemented algorithms.
+
+## Implementation Details
+- Stochastic Gradient Descent: 2000 epochs.
+- Batch Gradient Descent: 2000 epochs.
+
+## Plotting
+- X-axis: Height feature.
+- Y-axis: Weight feature.
+- Discrimination between males and females using different colors in the plots.
+
+## Result
+The visual representation of the datasets and regression models provides insights into the effectiveness and robustness of Stochastic and Batch Gradient Descent in handling linear regression tasks, especially in the presence of outliers.
 
 
 
